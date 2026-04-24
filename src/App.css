@@ -1,0 +1,26 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f5;
+  color: #18181b;
+  margin: 0;
+}
+.app-container { max-width: 800px; margin: 0 auto; padding: 20px; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding-bottom: 20px; border-bottom: 2px solid #e4e4e7; margin-bottom: 30px; }
+.navbar h2 { margin: 0; color: #14b8a6; }
+.navbar h2 span { color: #71717a; font-weight: 400; }
+.nav-links a { margin-left: 15px; text-decoration: none; color: #3f3f46; font-weight: 500; }
+.nav-links a:hover { color: #14b8a6; }
+.card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.input-group { margin-bottom: 20px; display: flex; flex-direction: column; }
+.input-group label { font-weight: 600; margin-bottom: 8px; font-size: 0.9em; }
+.input-group input, .input-group textarea { padding: 10px; border: 1px solid #d4d4d8; border-radius: 6px; font-size: 1em; }
+.btn { background: #14b8a6; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-size: 1em; font-weight: bold; width: 100%; }
+.btn:hover { background: #0d9488; }
+.vote-options { margin-bottom: 20px; }
+.vote-options label { display: block; margin-bottom: 10px; font-size: 1.1em; }
+.progress-bar-container { background: #fee2e2; border-radius: 8px; overflow: hidden; height: 30px; margin: 20px 0; }
+.progress-bar { background: #34d399; height: 100%; display: flex; align-items: center; padding-left: 10px; color: white; font-weight: bold; }
+.status.success { color: #059669; font-weight: bold; text-align: center; margin-top: 20px; }
+.qr-card { text-align: center; }
+.qr-container { display: flex; justify-content: center; margin: 20px 0; padding: 20px; background: white; border: 2px dashed #e4e4e7; border-radius: 12px;}
+.center-input { align-items: center; }
